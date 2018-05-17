@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		F52CC7BD20AD462000FF4EFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52CC7BC20AD462000FF4EFA /* AppDelegate.swift */; };
-		F52CC7BF20AD462000FF4EFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52CC7BE20AD462000FF4EFA /* ViewController.swift */; };
 		F52CC7C220AD462000FF4EFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F52CC7C020AD462000FF4EFA /* Main.storyboard */; };
 		F52CC7C420AD462000FF4EFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F52CC7C320AD462000FF4EFA /* Assets.xcassets */; };
 		F52CC7C720AD462000FF4EFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F52CC7C520AD462000FF4EFA /* LaunchScreen.storyboard */; };
+		F52CC7CF20AD478B00FF4EFA /* FoodDeliveryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52CC7CE20AD478B00FF4EFA /* FoodDeliveryTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F52CC7B920AD462000FF4EFA /* DITFoodDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DITFoodDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F52CC7BC20AD462000FF4EFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F52CC7BE20AD462000FF4EFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F52CC7C120AD462000FF4EFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F52CC7C320AD462000FF4EFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F52CC7C620AD462000FF4EFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F52CC7C820AD462000FF4EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F52CC7CE20AD478B00FF4EFA /* FoodDeliveryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDeliveryTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +54,8 @@
 		F52CC7BB20AD462000FF4EFA /* DITFoodDelivery */ = {
 			isa = PBXGroup;
 			children = (
+				F52CC7CE20AD478B00FF4EFA /* FoodDeliveryTableViewController.swift */,
 				F52CC7BC20AD462000FF4EFA /* AppDelegate.swift */,
-				F52CC7BE20AD462000FF4EFA /* ViewController.swift */,
 				F52CC7C020AD462000FF4EFA /* Main.storyboard */,
 				F52CC7C320AD462000FF4EFA /* Assets.xcassets */,
 				F52CC7C520AD462000FF4EFA /* LaunchScreen.storyboard */,
@@ -136,8 +136,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F52CC7BF20AD462000FF4EFA /* ViewController.swift in Sources */,
 				F52CC7BD20AD462000FF4EFA /* AppDelegate.swift in Sources */,
+				F52CC7CF20AD478B00FF4EFA /* FoodDeliveryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
