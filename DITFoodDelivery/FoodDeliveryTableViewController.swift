@@ -12,6 +12,8 @@ class FoodDeliveryTableViewController: UITableViewController {
 
     var foodStoreNames = ["늘해랑", "번개반점", "아딸", "왕짜장", "토마토 도시락", "홍콩반점"]
     var foodStoreImages = ["01", "02", "03", "04", "05", "06"]
+    var foodStoreAddress = ["부산광역시 부산진구 양정동 418-282", "부산광역시 부산진구 양정동 418-282", "부산광역시 부산진구 양정동 418-282", "부산광역시 부산진구 양정동 418-282", "부산광역시 부산진구 양정동 418-282", "부산광역시 부산진구 양정동 418-282", "부산광역시 부산진구 양정동 418-282"]
+    var foodStoreType = ["돼지국밥", "중화요리", "분식", "도시락", "중화요리"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +23,8 @@ class FoodDeliveryTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        // 네비게이션 타이틀
+        self.title = "DIT 배달통"
     }
 
     override func didReceiveMemoryWarning() {
@@ -46,6 +50,7 @@ class FoodDeliveryTableViewController: UITableViewController {
 
         // Configure the cell...
         cell.textLabel?.text = foodStoreNames[indexPath.row]
+        cell.detailTextLabel?.text = foodStoreAddress[indexPath.row]
         cell.imageView?.image = UIImage(named : foodStoreImages[indexPath.row])
         
         return cell
